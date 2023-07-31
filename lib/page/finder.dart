@@ -8,9 +8,9 @@ class TheBody extends StatelessWidget {
     return Center(
       child: Column(
         children: [
-          Image.asset('requestapp/images/images.jpeg'),
+          Image.asset('assets/images/images.jpeg'),
           const Padding(
-            padding: EdgeInsets.all(28.0),
+            padding: EdgeInsets.all(8.0),
             child: Text(
               'No New Request',
               maxLines: 2,
