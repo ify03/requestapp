@@ -46,15 +46,14 @@ class MyApp extends StatelessWidget {
             padding: EdgeInsets.zero,
             children: <Widget>[
               const UserAccountsDrawerHeader(
-                accountName: Text("Abhishek Mishra"),
-                accountEmail: Text("abhishekm977@gmail.com"),
-                currentAccountPicture: CircleAvatar(
-                  backgroundColor: Colors.orange,
-                  child: Text(
-                    "A",
-                    style: TextStyle(fontSize: 40.0),
-                  ),
+                accountName: Text(
+                  "Ifebuche Chukwu",
+                  style: TextStyle(fontWeight: FontWeight.bold),
                 ),
+                accountEmail: Text("ifebuchechukwu@gmail.com"),
+                currentAccountPicture: CircleAvatar(
+                    backgroundColor: Colors.orange,
+                    backgroundImage: AssetImage('assets/images/images.jpeg')),
               ),
               ListTile(
                 leading: const Icon(Icons.home),

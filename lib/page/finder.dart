@@ -24,10 +24,9 @@ class TheBody extends StatelessWidget {
             ),
             const Text(
               textAlign: TextAlign.center,
-              'When people send you a friend request,\n they\'ll appear here.',
-              maxLines: 2,
+              'When people send you a friend request,they\'ll appear here.',
               style: TextStyle(
-                fontWeight: FontWeight.w100,
+                fontWeight: FontWeight.w400,
                 color: Colors.black,
                 fontSize: 18,
               ),
@@ -37,14 +36,14 @@ class TheBody extends StatelessWidget {
             ),
             ElevatedButton(
               style: const ButtonStyle(
-                  backgroundColor: MaterialStatePropertyAll(Colors.blue)),
+                  backgroundColor: MaterialStatePropertyAll(Colors.blueGrey)),
               onPressed: () {
                 print('Pressed');
               },
               child: const Text(
                 'See Friend Request',
                 style: TextStyle(
-                  fontWeight: FontWeight.w100,
+                  fontWeight: FontWeight.w300,
                   color: Colors.black,
                   fontSize: 18,
                 ),
